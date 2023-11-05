@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 const commentsByPostId = {}
 
 app.get('/posts/:id/comments', (req, res) => {
-    res.send(commentsByPostId[req.params.id] || [])
+    res.send(commentsByPostId[req.params.id] || []) // check if it is a empty object or not
 })
 
 app.post('/posts/:id/comments', (req, res) => {
