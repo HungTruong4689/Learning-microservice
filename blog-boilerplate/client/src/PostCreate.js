@@ -8,9 +8,10 @@ const PostCreate = () => {
         //prevent the browser restarts
         event.preventDefault()
 
-        await axios.post('http://localhost:4000/posts', {
+        await axios.post('http://localhost:4000/posts/', {
             title,
         })
+        console.log('check event: ', event.target.value)
 
         setTitle('')
     }
