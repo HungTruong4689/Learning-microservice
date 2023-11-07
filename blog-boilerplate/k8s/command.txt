@@ -1,0 +1,21 @@
+
+List all the running deployments
+```
+    kubectl get deployments
+```
+
+
+```
+    kubectl describe deployment [depl name]
+```
+
+Create the deployment out of the config file
+```
+    kubectl apply -f [config file name]
+```
+
+Delete the deployment
+
+```
+    kubectl delete deployment [depl_name]
+```
