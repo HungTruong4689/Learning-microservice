@@ -19,3 +19,6 @@ Delete the deployment
 ```
     kubectl delete deployment [depl_name]
 ```
+
+
+Install ingress-nginx
