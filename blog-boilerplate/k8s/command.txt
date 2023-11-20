@@ -22,3 +22,12 @@ Delete the deployment
 
 
 Install ingress-nginx
+
+https://094506623482.signin.aws.amazon.com/console
+
+https://094506623482.signin.aws.amazon.com/console
+
+Internal : 10.150.0.2
+External: 34.86.179.94
+
+Public: 35.199.28.91
